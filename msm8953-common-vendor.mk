@@ -18,28 +18,28 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/msm8953-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libHMT.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHMT.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_3DPosition_ver202.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_AlbumArt_ver105.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundAlive_play_plus_ver210.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_play_plus_ver210.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundBooster_ver900.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver900.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libdeccfg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdeccfg.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprofileparamstorage.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libsomxcmn.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxcmn.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/libstr_preview_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstr_preview_core.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.qti.hardware.fstman@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.fstman@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.base@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.snap@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.snap@1.1.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.atn@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.tlc.atn@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.iccc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.tlc.iccc@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.payment@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.tlc.payment@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.tima@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.tlc.tima@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.tlc.ucm@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.trustonic.tee@1.0.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.trustonic.teeregistry@1.0.so
+    vendor/samsung/msm8953-common/proprietary/system/lib/libHMT.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHMT.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_AlbumArt_ver105.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundAlive_play_plus_ver210.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_play_plus_ver210.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/lib_SoundBooster_ver900.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver900.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprofileparamstorage.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudiocoreutils.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxcmn.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/libstr_preview_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstr_preview_core.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.qti.hardware.fstman@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fstman@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.base@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.1.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.atn@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.atn@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.iccc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.iccc@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.payment@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.payment@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.tima@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.tima@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.tlc.ucm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.ucm@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.tee@1.0.so \
+    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.trustonic.teeregistry@1.0.so
