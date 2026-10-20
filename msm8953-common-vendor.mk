@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8953-common/proprietary/system/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudiocoreutils.so \
     vendor/samsung/msm8953-common/proprietary/system/lib/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxcmn.so \
     vendor/samsung/msm8953-common/proprietary/system/lib/libstr_preview_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstr_preview_core.so \
-    vendor/samsung/msm8953-common/proprietary/system/lib/vendor.qti.hardware.fstman@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fstman@1.0.so \
     vendor/samsung/msm8953-common/proprietary/system/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.base@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.base@1.0.so \
     vendor/samsung/msm8953-common/proprietary/system/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
